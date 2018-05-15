@@ -9,7 +9,7 @@ categories: uncategorized
 When i was at valley christian JH i took an intro to programming class in 8th grade and made a basic website.
 check it out [here]
 
-[here]: /website/
+[here]: /website/index.html
 
 
 
