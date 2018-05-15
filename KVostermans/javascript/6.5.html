@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script type="text/javascript">
+	var distance = prompt("How far r u going in miles?");
+	var speed = prompt("Ok, and what do you predict will be your averege speed in miles per hour");
+	var time = distance / speed;
+	var hours = Math.floor(time); 
+	var minutes = (time - hours) * 60;
+	var minu = Math.floor(minutes);
+	document.write( hours +  " hours and " + minu + " minutes");
+</script>
+</body>
+</html>

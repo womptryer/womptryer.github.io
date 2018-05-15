@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* CSS Document */
+/* My Color Palette
+	Color 1: #7F1E40
+	Color 2: #327E7F
+	Color 3: #7F7F07
+	*/
+		body { 
+					font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+					color:#7F1E40;
+					background-image: url(https://media.giphy.com/media/B1fzKvRa5Vife/giphy.gif);
+					background-size: cover;
+		}
+		/***********************************************
+		
+		
+					TRANSPARENT BACKGROUND
+		
+		
+		***********************************************/
+		
+	
+	
+	
+	
+	
+	
+		/***********************************************
+		
+		
+					     BASIC STUCTURE  
+		
+		
+		
+		***********************************************/
+	#wrapper {
+		width: 960px;
+		padding: 5px;
+		margin: 20px auto;
+	}
+	
+	
+	#header { 
+		height: 100px;
+		
+	} 
+	
+	
+	#sidebar { 
+		float: left;
+		width: 300px;
+		
+	}
+	#content {
+		float: right;
+		width: 600px;
+		
+	}
+	
+	
+	#footer {
+		clear: both;
+		
+	}
+	
+	
+	
+	
+	
+	
+		/***********************************************
+		
+		
+					  RESPONSIVE WIDTH
+		
+		
+		***********************************************/
+		@media screen and (max-width: 980px)  {
+			#wrapper  {
+					width: 94%;
+					
+			}
+			#context  {
+					width: 65%;
+					
+			}
+			#sidebar  {
+				  width: 30%;
+				  
+			}
+		}
+		
+		@media sceen and (max-width: 700px)  {
+			#context, #sidebar {
+				width: auto;
+				float: none;
+			}
+			#header {
+				height: auto;
+			}
+		}
+		
+		/***********************************************
+		
+		
+					 COLARS AND FONTS
+		
+		***********************************************/
+		
+		body {
+				font-family:Segroe, "Sergoe UI", "DejaVu Sans", "Trebuchet MS";
+				color: black;
+				back-color: #D0990F;
+				
+		}
+		
+		#header, #sidebar, #content, #footer {
+			background-color: rgba(17,130,96,0.81);
+			margin-bottom: 4px;
+			border: ridge;
+			border-radius: 15px;
+			border-color: yellow;
+			padding-left: 4px;
+			padding-right: 4px;
+			
+		}
+	
+			
+	
+		

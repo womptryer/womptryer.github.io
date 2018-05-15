@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>7.8</title>
+</head>
+
+<body>
+<script type="text/javascript">
+var question = prompt("What hour is it?");
+
+switch(question) {
+		case "6am":
+		case "7am":
+		case "8am":
+		case "9am":
+		case "10am":
+				alert("You can find a continental brekfeats");
+				break;
+		case "11am":
+		case "12am":
+		case "1pm":
+		case "2pm":
+				alert("The restaurant is open.");
+				var res = prompt("Do you want to make a reservation?");
+				if( res != "yes" ) {
+				}
+				var tomatoe = prompt("What tim do yous wants the reservation?");
+				alert("Ok you have a reservation at " + tomatoe + ".");
+				break;
+		case "5pm":
+		case "6pm":
+		case "7pm":
+		case "8pm":
+		case "9pm":
+				alert("You can order room service or visit the restaurant.");
+				break;
+}
+</script>
+</body>
+</html>
