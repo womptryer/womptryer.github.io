@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Body*/
+.body {
+	background-color: black;
+	background-image: url("images/space3.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	width: 100%;
+	height: 100%;
+}
+
+/*Textbox*/
+.textbox {
+	background-position: fixed;
+	background-image: url("images/startpage.jpg");
+	background-size: cover;
+	border-radius: 10px;
+	border: ridge;
+	border-color: rgba(90,148,58,1.00);
+	border-width: 7px;
+	position: fixed;
+	margin-left: 6%;
+	margin-right: 20%;
+	width: 50%;
+	height: 90%;
+	color: rgba(70,222,255,1.00);
+	top: 5%;
+	padding-left: 2px;
+	overflow: auto;
+}
+.textbox p {
+	margin: 5px;
+	text-align:left;
+	border: ridge;
+	border-width:1px;
+	border-radius:5px;
+	border-color:rgba(0,182,36,1.00);
+	background-color:rgba(0,182,36,0.15);
+	padding-left:2px;
+}
+.textbox button {
+	font-size: 20px;
+	color: black;
+	margin: 0.5%;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: rgba(0,182,36,1.00);
+	background-color: rgba(0,182,36,1.00);
+	width: 48.76%;
+}
+
+/*Start Button*/
+.startbutton {
+	background-position: fixed;
+	width: 100px;
+	height: 100px;
+}
+
+/*Stats Page*/
+.stats {
+	background-position: center;
+	background-image: url("images/stats.png");
+	background-size: cover;
+	border-radius: 10px;
+	border: inset;
+	border-color: rgba(90,148,58,1.00);
+	border-width: 5px;
+	position: fixed;
+	margin-left: 58%;
+	margin-right: 20%;
+	width: 40%;
+	height: 40%;
+	color: white;
+	top: 5%;
+}
+.stats p {
+	padding-left: 10px;
+	margin-top: 1px;
+	color: rgba(57, 255, 20, 1.00);
+	font-size: 20px;
+}
+.stats button {
+    font-size: 20px;
+	color: black;
+    margin: 0.75%;
+    border-width: 1px;
+	border-radius: 5px;
+    border-color: rgba(0,182,36,1.00);
+	background-color: rgba(0,182,36,1.00);
+}
+.heart {
+	width: 30%;
+	heart: 30%	
+}
+
+/*Weapon Page*/
+.weaponpage {
+	background-position: center;
+	background-image: url("images/weaponpage.jpg");
+	background-size: cover;
+	border-radius: 10px;
+	border: inset;
+	border-color: rgba(90,148,58,1.00);
+	border-width: 5px;
+	position: fixed;
+	margin-left: 58%;
+	margin-right: 20%;
+	width: 40%;
+	height: 45%;
+	color: white;
+	top: 50%;
+}
+.weaponpage img {
+	height: 100%;
+	width: 30%;
+}
